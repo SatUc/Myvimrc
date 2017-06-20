@@ -21,6 +21,7 @@ let NERDTreeShowHidden = 1
 " デフォルトでツリーを表示させる
 autocmd VimEnter * execute 'NERDTree'
 
+set mouse=a
 call neobundle#end()
 
 filetype plugin indent on
